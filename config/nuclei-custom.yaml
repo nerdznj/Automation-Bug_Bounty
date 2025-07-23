@@ -1,0 +1,16 @@
+id: custom-xss-check
+info:
+  name: Custom XSS Check
+  author: yourname
+  severity: medium
+  description: Detects custom XSS patterns
+  tags: xss
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/?q=<script>alert(1337)</script>"
+    matchers:
+      - type: word
+        words:
+          - '<script>alert(1337)</script>'
+        part: body

@@ -1,0 +1,4 @@
+colorlog
+requests
+rich
+termcolor

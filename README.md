@@ -59,4 +59,4 @@ python3 run.py --target example.com
 - بهره‌برداری فقط پس از تأیید دستی انجام می‌شود.
 
 ## توسعه‌دهنده
-- [GitHub: bugbounty-automation](https://github.com/yourusername/bugbounty-automation)
+- [GitHub: bugbounty-automation](https://github.com/nerdznj/Automation-Bug_Bounty)
